@@ -1,4 +1,4 @@
--//Author: Abdulla Aldhaheri
+//Author: Abdulla Aldhaheri
 #include<iostream>
 #include<string>
 using namespace std;
