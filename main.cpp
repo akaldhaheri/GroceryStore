@@ -34,14 +34,14 @@ int main()
 }
 }while(input!='q' && input!='Q');
 
-	cout<<"==ITEMS TO BUY==\n";
+	cout<<"\n==ITEMS TO BUY==";
 	for(int numItems=0; numItems<5; numItems++)
     	{
-		cout<< numItems+1;
+		cout<<endl<<numItems+1;
 
 		if(list[numItems]!="")
 	    	{
-        	cout<<" "<<list[numItems]<<endl;
+        	cout<<" "<<list[numItems];
 		}
        	}
 
