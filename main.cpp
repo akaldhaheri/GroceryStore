@@ -41,7 +41,7 @@ int main()
 
 		if(list[numItems]!="")
 	    	{
-		cout<<" "<<list[numItems];
+		cout<<list[numItems];
 		}
 	}cout<<endl;
 
