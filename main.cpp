@@ -33,5 +33,17 @@ int main()
 	}
 }
 }while(input!='q' && input!='Q');
-  return 0;
+
+	cout<<"\n==ITEMS TO BUY==\n";
+	for(int numItems=0; numItems<5; numItems++)
+    	{
+		cout<< numItems+1;
+
+		if(list[numItems]!="")
+	    	{
+        	cout<<" "<<list[numItems]<<endl;
+		}
+       	}
+
+	return 0;
 }
